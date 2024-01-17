@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600&family=Nunito:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+    
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+}
+h1,h2,h3,h4,h5,h6 {
+ font-family: 'Lora', serif; 
+}
+
+@layer utilities {
+    .bg-color{
+        @apply bg-gradient-to-r from-pink-300 via-purple-300 to-indigo-400
+    }
+}
